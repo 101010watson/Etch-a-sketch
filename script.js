@@ -16,7 +16,7 @@ for(let i = 0;i<16;i++){
                 newDiv.style.backgroundColor = `${generateRandomRGB()}`;
             }
             else{
-                newDiv.style.backgroundColor = "";
+                newDiv.style.backgroundColor = "";// this is to remove the existing color
                 newDiv.classList.add("hover");
             } 
             });
@@ -31,7 +31,7 @@ for(let i = 0;i<16;i++){
                         newDiv.style.backgroundColor = `${generateRandomRGB()}`;
                     }
                     else{
-                        newDiv.style.backgroundColor = "";
+                        newDiv.style.backgroundColor = "";// this is to remove the existing color
                         newDiv.classList.add("hover");
                     } 
                 }
@@ -77,7 +77,7 @@ gridSize.addEventListener("click",() => {
                 newDiv.style.backgroundColor = `${generateRandomRGB()}`;
             }
             else{
-                newDiv.style.backgroundColor = "";
+                newDiv.style.backgroundColor = "";// this is to remove the existing color
                 newDiv.classList.add("hover");
             } 
             });
@@ -92,7 +92,7 @@ gridSize.addEventListener("click",() => {
                         newDiv.style.backgroundColor = `${generateRandomRGB()}`;
                     }
                     else{
-                        newDiv.style.backgroundColor = "";
+                        newDiv.style.backgroundColor = "";// this is to remove the existing color
                         newDiv.classList.add("hover");
                     } 
                 }
